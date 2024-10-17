@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	gap: 4px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2px;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	background-color: black;
+}
+
+.square {
+	width: 60px;
+	height: 60px;
+	background-color: gray;
+	border-color: white;
+}
